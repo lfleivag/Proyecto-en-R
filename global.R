@@ -33,6 +33,10 @@ comb <- table(base$COMBUSTIBLE)
 marc <- table(base$MARCA)
 clas <- table(base$CLASE)
 Ton <- table(base$NIVELES_TONALAJE)
+
+lista1 <- list('PROVINCIA'= prov, 'SERVICIO'=serv, 'COMBUSTIBLE'= comb,
+               'MARCA'= marc, 'CLASE' = clas, 'TONELAJE'= Ton)
+
 ###################
 Opciones <- names(base[c(-7,-9,-10)])
 
